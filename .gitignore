@@ -1,2 +1,15 @@
 .sdd
 .npmrc
+
+# Python bytecode and test/lint caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local environments
+.venv/
+venv/
+
+# macOS metadata
+.DS_Store
